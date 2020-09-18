@@ -6,3 +6,4 @@
 1. [Glowing Gradient Border Card](https://dusangrbic.github.io/CSS-Stuff/glowing-gradient-border-card.html)
 1. [Skewed Border](https://dusangrbic.github.io/CSS-Stuff/skewed-border.html)
 1. [Ripple Effect](https://dusangrbic.github.io/CSS-Stuff/ripple-effect.html)
+1. [Glowing Text](https://dusangrbic.github.io/CSS-Stuff/glowing-text.html)
