@@ -1,0 +1,25 @@
+body{
+   margin: 0;
+   background: #ccc;
+}
+h1{
+   font-size: 5rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+@media screen and (max-width: 790px) {
+   .container{
+      text-align: left;
+   }
+}
+
+.inset-shadow{
+   color: transparent;
+   text-shadow: 
+               1.5px 1.5px 3px #fff9,
+               0px 0px 0px #222;
+}

@@ -7,3 +7,4 @@
 1. [Skewed Border](https://dusangrbic.github.io/CSS-Stuff/skewed-border.html)
 1. [Ripple Effect](https://dusangrbic.github.io/CSS-Stuff/ripple-effect.html)
 1. [Glowing Text](https://dusangrbic.github.io/CSS-Stuff/glowing-text.html)
+1. [Inset Text Shadow](https://dusangrbic.github.io/CSS-Stuff/inset-text-shadow.html)
