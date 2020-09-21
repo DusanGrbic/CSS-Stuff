@@ -8,3 +8,4 @@
 1. [Ripple Effect](https://dusangrbic.github.io/CSS-Stuff/ripple-effect.html)
 1. [Glowing Text](https://dusangrbic.github.io/CSS-Stuff/glowing-text.html)
 1. [Inset Text Shadow](https://dusangrbic.github.io/CSS-Stuff/inset-text-shadow.html)
+1. [Button Ripple Effect](https://dusangrbic.github.io/CSS-Stuff/button-ripple-effect.html)
