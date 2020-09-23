@@ -13,3 +13,4 @@
 1. [Neon Light Button](https://dusangrbic.github.io/CSS-Stuff/neon-light-button.html)
 1. [3D Text Effect](https://dusangrbic.github.io/CSS-Stuff/3D-text-effect.html)
 1. [Sticky Scrolling Effects](https://dusangrbic.github.io/CSS-Stuff/sticky-scrolling-effects.html)
+1. [Parallax Scrolling Effect](https://dusangrbic.github.io/CSS-Stuff/parallax-scrolling-effect.html)

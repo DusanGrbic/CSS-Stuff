@@ -1,0 +1,72 @@
+:root{
+   --dark-blue: #0a2a43;
+   --distance: 200px;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background: var(--dark-blue);
+   min-height: 1200px;
+}
+section{
+   --move: 0px;
+   
+   position: relative;
+   width: 100%;
+   height: calc(100vh);
+   /* overflow: hidden; */
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section::before{
+   content: '';
+   position: absolute;
+   top: calc(100% + var(--distance) - 100px + var(--move));
+   width: 100%;
+   height: 100px;
+   z-index: 10;
+   background-image: linear-gradient(to top, var(--dark-blue), transparent);
+}
+section::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 1200px;
+   background: var(--dark-blue);
+   z-index: 10;
+   mix-blend-mode: color;
+}
+section img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   pointer-events: none;
+}
+section img:not(:nth-child(1)){
+   top: var(--distance);
+}
+#text{
+   position: relative;
+   top: var(--distance);
+   font-size: 10rem;
+   color: #fff;
+   z-index: 1;
+}
+@media screen and (max-width: 860px) {
+   #text{
+      font-size: 7rem;
+   }
+}
+#road{
+   z-index: 2;
+}
