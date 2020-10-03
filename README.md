@@ -16,3 +16,4 @@
 1. [Parallax Scrolling Effect](https://dusangrbic.github.io/CSS-Stuff/parallax-scrolling-effect.html)
 1. [Glowing Loading Page](https://dusangrbic.github.io/CSS-Stuff/glowing-loading-page.html)
 1. [Liquid Animation](https://dusangrbic.github.io/CSS-Stuff/liquid-animation.html)
+1. [SVG Animation With Text](https://dusangrbic.github.io/CSS-Stuff/svg-animation-with-text.html)
