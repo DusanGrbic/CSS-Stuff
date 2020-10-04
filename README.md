@@ -17,3 +17,4 @@
 1. [Glowing Loading Page](https://dusangrbic.github.io/CSS-Stuff/glowing-loading-page.html)
 1. [Liquid Animation](https://dusangrbic.github.io/CSS-Stuff/liquid-animation.html)
 1. [SVG Animation With Text](https://dusangrbic.github.io/CSS-Stuff/svg-animation-with-text.html)
+1. [SVG Button Stroke](https://dusangrbic.github.io/CSS-Stuff/svg-button-stroke.html)
