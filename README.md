@@ -20,3 +20,4 @@
 1. [SVG Button Stroke](https://dusangrbic.github.io/CSS-Stuff/svg-button-stroke.html)
 1. [Liquid Animation Without SVG](https://dusangrbic.github.io/CSS-Stuff/liquid-animation-without-svg.html)
 1. [CSS Button Hover Effect](https://dusangrbic.github.io/CSS-Stuff/css-button-hover-effect.html)
+1. [Grid Layout With Image Span](https://dusangrbic.github.io/CSS-Stuff/grid-layout-with-image-span.html)

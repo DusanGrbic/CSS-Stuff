@@ -1,0 +1,60 @@
+@import url('//fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   color: #fff;
+   background: #333;
+   font-family: Roboto, sans-serif;
+}
+h2{
+   margin: 10px;
+   font-size: 45px;
+   font-weight: 300;
+}
+
+.container{
+   height: 100vh;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 10px;
+}
+@media screen and (min-width: 830px) {
+   .container{
+      grid-template-columns: repeat(4, 1fr);
+   }
+   .container > div:nth-of-type(1),
+   .container > div:nth-of-type(6),
+   .container > div:nth-of-type(9),
+   .container > div:nth-of-type(10)
+   {
+      grid-column: span 2;
+   }
+}
+
+.container > div{
+   background-size: cover;
+   background-attachment: fixed;
+   cursor: pointer;
+   transition: all .5s ease-in-out;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.container > div:hover{
+   opacity: 0.7;
+   transform: scale(.98);
+}
+
+.bg1{
+   background: url('../img/bg1.jpg');
+}
+.bg2{
+   background: url('../img/bg2.jpg');
+   color: #333;
+}
