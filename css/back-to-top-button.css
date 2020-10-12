@@ -1,0 +1,37 @@
+:root{
+   --grey: #767f88;
+}
+body{
+   background: #15212d;
+}
+.container{
+   padding: 100px 150px;
+}
+.container h2{
+   font-size: 4rem;
+   margin-bottom: 40px;
+   color: var(--grey);
+   font-weight: 500;
+}
+.container p{
+   font-size: 1.1rem;
+   color: var(--grey);
+}
+.scroll-top{
+   position: fixed;
+   bottom: 800px;
+   right: 40px;
+   width: 60px;
+   height: 60px;
+   background: #fff url('../img/up.png') center/40px no-repeat;
+   border-radius: 50%;
+   cursor: pointer;
+   visibility: hidden;
+   opacity: 0;
+   transition: 0.5s;
+}
+.scroll-top.active{
+   bottom: 40px;
+   visibility: visible;
+   opacity: 1;
+}

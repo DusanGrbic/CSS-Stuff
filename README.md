@@ -24,3 +24,4 @@
 1. [Button Hover Effect](https://dusangrbic.github.io/CSS-Stuff/button-hover-effect.html)
 1. [Glowing Button Hover Effect](https://dusangrbic.github.io/CSS-Stuff/glowing-button-hover-effect.html)
 1. [Custom Checkbox Design](https://dusangrbic.github.io/CSS-Stuff/custom-checkbox-design.html)
+1. [Back To Top Button](https://dusangrbic.github.io/CSS-Stuff/back-to-top-button.html)
