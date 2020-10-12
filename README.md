@@ -22,3 +22,4 @@
 1. [CSS Button Hover Effect](https://dusangrbic.github.io/CSS-Stuff/css-button-hover-effect.html)
 1. [Grid Layout With Image Span](https://dusangrbic.github.io/CSS-Stuff/grid-layout-with-image-span.html)
 1. [Button Hover Effect](https://dusangrbic.github.io/CSS-Stuff/button-hover-effect.html)
+1. [Glowing Button Hover Effect](https://dusangrbic.github.io/CSS-Stuff/glowing-button-hover-effect.html)
