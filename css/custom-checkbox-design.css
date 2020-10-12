@@ -1,0 +1,63 @@
+:root{
+   --clr1: #0c0c0c;
+   --clr2: #00a1ff;
+   --clr3: #00c1ff;
+   --trs: .5s;
+}
+
+body{
+   height: 100vh;
+   margin: 0;
+   background: var(--clr1);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.btn-container{
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.btn{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%;
+   background: #1b1b1b;
+   border-radius: 50%;
+   box-shadow: 
+            0 0 0 2px #000,
+            0 0 0 5px #080808,
+      inset 0 2px 2px #fff8,
+      inset 0 -5px 5px #0008;
+}
+input[type="checkbox"]{
+   appearance: none;
+}
+input[type="checkbox"]:checked ~ .fa{
+   color: var(--clr2);
+   text-shadow: 
+            0 0 15px var(--clr2),
+            0 0 30px var(--clr2);
+   transition: var(--trs);            
+}
+input[type="checkbox"]:checked + .btn{
+   box-shadow: 
+            0 0 0 2px #000,
+            0 0 50px -3px var(--clr3),
+      inset 0 1px 1px #fff8,
+      inset 0 -5px 5px #0008;
+   transition: var(--trs);
+}
+.fa{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 6rem;
+   color: var(--clr1);
+}
