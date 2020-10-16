@@ -26,3 +26,4 @@
 1. [Custom Checkbox Design](https://dusangrbic.github.io/CSS-Stuff/custom-checkbox-design.html)
 1. [Back To Top Button](https://dusangrbic.github.io/CSS-Stuff/back-to-top-button.html)
 1. [Page Scroll Progress Bar](https://dusangrbic.github.io/CSS-Stuff/page-scroll-progress-bar.html)
+1. [Clock](https://dusangrbic.github.io/CSS-Stuff/clock.html)

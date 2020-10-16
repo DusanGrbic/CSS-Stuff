@@ -1,0 +1,127 @@
+body{
+   --dark: #091921;
+   --light: #d1dae3;
+   --blue: #008eff;
+   
+   margin: 0;
+   min-height: 100vh;
+   background: var(--dark);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.clock{
+   position: relative;
+   width: 350px;
+   height: 350px;
+   background: var(--dark) url(../img/clock.png) center/cover;
+   border: 4px solid var(--dark);
+   border-radius: 50%;
+   box-shadow: 
+            0px -15px 15px #ffffff0d,
+            0px 15px 15px #0000004d,
+      inset 0px -15px 15px #ffffff0d,
+      inset 0px 15px 15px #0000004d;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.clock::before{
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   background: #fff;
+   border-radius: 50%;
+   z-index: 10;
+}
+
+/* Hands */
+.hour, .min, .sec{
+   position: absolute;
+   border-radius: 50%;
+
+   display: flex;
+   justify-content: center;
+}
+.hour{
+   width: 120px;
+   height: 120px;
+}
+.min{
+   width: 180px;
+   height: 180px;
+}
+.sec{
+   width: 230px;
+   height: 230px;
+}
+.hour::before, .min::before, .sec::before{
+   content: '';
+   position: absolute;
+   border-radius: 6px 6px 0;
+}
+.hour::before{
+   width: 8px;
+   height: 60px;
+   background: #ff105e;
+}
+.min::before{
+   width: 4px;
+   height: 90px;
+   background: #fff;
+}
+.sec::before{
+   width: 2px;
+   height: 150px;
+   background: var(--blue);
+}
+
+/* Toggle */
+.toggle{
+   position: absolute;
+   top: 30px;
+   right: 150px;
+   width: 20px;
+   height: 20px;
+   color: var(--light);
+   background: var(--light);
+   border-radius: 50%;
+   cursor: pointer;
+}
+.toggle::before{
+   content: 'Light Mode';
+   position: absolute;
+   left: 25px;
+   white-space: nowrap;
+}
+
+/* Light Mode */
+body.light{
+   background: var(--light);
+}
+body.light .clock{
+   background-color: var(--light);
+   border: 4px solid #cad3dc;
+   box-shadow: 
+            -8px -8px 15px #ffffff80,
+            10px 10px 10px #0000001a,
+      inset -8px -8px 15px #ffffff80,
+      inset 10px 10px 10px #0000001a;
+}
+body.light .clock::before{
+   background: var(--blue);
+}
+body.light .min::before{
+   background: var(--dark);
+}
+
+body.light .toggle{
+   color: var(--dark);
+   background: var(--dark);
+}
+body.light .toggle::before{
+   content: 'Dark Mode';
+}
