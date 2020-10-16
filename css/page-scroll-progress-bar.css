@@ -1,0 +1,36 @@
+body{
+   margin: 0;
+   color: #fff;
+   background: #000;
+   font-family: consolas;
+}
+section{
+   padding: 100px;
+}
+h2{
+   margin: 0 0 1em;
+   font-size: 3.5em;
+   text-align: center;
+}
+p{
+   font-size: 1.6em;
+}
+::-webkit-scrollbar{
+   width: 0;
+}
+.progressbar-container{
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 15px;
+   height: 100%;
+   background: transparent;
+   cursor: pointer;
+}
+.progressbar{
+   width: 15px;
+   height: 0;
+   background-image: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+   border-radius: 10px;
+   transition: 0.2s;
+}
