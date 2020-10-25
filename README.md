@@ -29,3 +29,4 @@
 1. [Clock](https://dusangrbic.github.io/CSS-Stuff/clock.html)
 1. [Gradient Button Glowing Border](https://dusangrbic.github.io/CSS-Stuff/gradient-button-glowing-border.html)
 1. [Glowing Text Hover Effect](https://dusangrbic.github.io/CSS-Stuff/glowing-text-hover-effect.html)
+1. [Simple Image Slider](https://dusangrbic.github.io/CSS-Stuff/simple-image-slider.html)
