@@ -1,0 +1,34 @@
+body{
+   margin: 0;
+   height: 100vh;
+   background: #000;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box{
+   position: relative;
+   width: 200px;
+   height: 200px;
+   transform-style: preserve-3d;
+   animation: spin 20s linear infinite;
+}
+.box span{
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   transform: rotateX(calc(45deg * var(--i))) translateZ(300px);
+}
+.box span img{
+   object-fit: cover;
+}
+
+@keyframes spin{
+   from {
+      transform: perspective(1000px) rotateX(0) rotateY(35deg);
+   }
+   to{
+      transform: perspective(1000px) rotateX(360deg) rotateY(35deg);
+   }
+}

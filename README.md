@@ -30,3 +30,4 @@
 1. [Gradient Button Glowing Border](https://dusangrbic.github.io/CSS-Stuff/gradient-button-glowing-border.html)
 1. [Glowing Text Hover Effect](https://dusangrbic.github.io/CSS-Stuff/glowing-text-hover-effect.html)
 1. [Simple Image Slider](https://dusangrbic.github.io/CSS-Stuff/simple-image-slider.html)
+1. [3d Image Gallery](https://dusangrbic.github.io/CSS-Stuff/3D-image-gallery.html)
