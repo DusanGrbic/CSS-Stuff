@@ -8,7 +8,7 @@ function rotate(n) {
    const w = window.innerWidth
 
    /* Determine perspective value based on viewport width */
-   perspective = (w > 940 && w <= 440) ? 1000 : 1500
+   perspective = (w > 940 || w <= 440) ? 1000 : 1500
 
    /* Determine X-axis rotation based on viewport width */
    switch (true) {
