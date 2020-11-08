@@ -32,3 +32,4 @@
 1. [Simple Image Slider](https://dusangrbic.github.io/CSS-Stuff/simple-image-slider.html)
 1. [3d Image Gallery](https://dusangrbic.github.io/CSS-Stuff/3D-image-gallery.html)
 1. [Image Rotation Carousel](https://dusangrbic.github.io/CSS-Stuff/image-rotation-carousel.html)
+1. [3D Cube](https://dusangrbic.github.io/CSS-Stuff/3D-cube.html)
