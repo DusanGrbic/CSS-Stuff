@@ -34,3 +34,4 @@
 1. [Image Rotation Carousel](https://dusangrbic.github.io/CSS-Stuff/image-rotation-carousel.html)
 1. [3D Cube](https://dusangrbic.github.io/CSS-Stuff/3D-cube.html)
 1. [3d Video Cube](https://dusangrbic.github.io/CSS-Stuff/3D-video-cube.html)
+1. [3D Wavy Circle Loader](https://dusangrbic.github.io/CSS-Stuff/3D-wavy-circle-loader.html)
